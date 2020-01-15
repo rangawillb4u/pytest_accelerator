@@ -1,0 +1,6 @@
+[
+    {"key": "name", "label": "Environment:", "props":{"required":true}},
+    {"key": "age", "label":"Age:", "type":"number"},
+    {"key": "rating", "label": "Rating:","type":"number"},
+    {"key": "qualification", "label": "Qualification:", "props":{"min":0,"max":5}}
+]

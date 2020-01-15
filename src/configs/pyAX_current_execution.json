@@ -1,0 +1,40 @@
+{
+    "executionStatus": "No Started",
+    "executionID": "",
+    "testSuiteDetails": {
+        "TestKeyClass": {
+            "test_ScreenVal_Appian_Key_LoginPage": {
+                "name": "test_ScreenVal_Appian_Key_LoginPage",
+                "tags": [
+                    "Regression",
+                    "ScreenVal_Appian_Key"
+                ],
+                "props": {
+                    "name": "Screen Validation - Appian - Key Pages - LoginPage",
+                    "description": "Validates the login screen",
+                    "zypherID": "RBS-1234",
+                    "manualTestID": "ScreenVal-Appian-Key-LoginPage",
+                    "testDataFile": "paul_test_data.csv"
+                },
+                "pageObjects": [],
+                "status": "In-progress"
+            },
+            "test_ScreenVal_Appian_Key_LoginPage_01": {
+                "name": "test_ScreenVal_Appian_Key_LoginPage",
+                "tags": [
+                    "Regression",
+                    "ScreenVal_Appian_Key"
+                ],
+                "props": {
+                    "name": "Screen Validation - Appian - Key Pages - LoginPage",
+                    "description": "Validates the login screen",
+                    "zypherID": "RBS-1234",
+                    "manualTestID": "ScreenVal-Appian-Key-LoginPage",
+                    "testDataFile": "paul_test_data.csv"
+                },
+                "pageObjects": [],
+                "status": "Not started"
+            }
+        }
+    }
+}

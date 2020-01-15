@@ -1,0 +1,72 @@
+.form-layout{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row nowrap;
+}
+
+.wrapper {
+    background-color: whitesmoke;
+    list-style-type: none;
+    padding: 10px;
+    border-radius: 3px;
+    width: 100%;
+    margin: 10px;
+}
+.wrapper-tp {
+    list-style-type: none;
+    padding: 10px;
+    border-radius: 3px;
+    width: 100%;
+    margin: 10px;
+}
+.form-row {
+    display: flex;
+    justify-content: flex-end;
+    padding: .3em;
+}
+.form-column {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: .3em;
+}
+.form-row > label {
+    flex: 2;
+    padding: .5em 1em .0em 0;
+    text-align: end;
+}
+.form-row > input{
+    flex: 2;
+    padding: .2em;
+    height: 30px;
+}
+.form-row > div{
+    flex: 5;
+    height: 30px;
+}
+.form-row > textarea{
+    flex: 5;
+    padding: .5em;
+    height: 100px;
+}
+.multiSelect{
+    
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (min-width: 768px) {
+    .form-row > input {
+        flex: 3;  
+    }
+}
+@media screen and (min-width: 992px) {
+    .form-row > input {
+     flex: 4;  
+    }
+}
+@media screen and (min-width: 1200px) {
+    .form-row > input {
+     flex: 5;  
+    }
+}

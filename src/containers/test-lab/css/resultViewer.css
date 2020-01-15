@@ -1,0 +1,109 @@
+table { 
+    border: 3px solid #FFFFFF;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    width: 2450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ .innertable { 
+     border: 3px solid #FFFFFF; 
+     border-collapse: collapse; 
+     border-spacing: 0px; 
+     width: 744px;
+     margin-left: auto; 
+     margin-right: auto;
+     text-align: center;  
+ } 
+ .lefttable { 
+     border: 3px solid #FFFFFF; 
+     border-collapse: collapse; 
+     border-spacing: 0px; 
+     width: 100%;
+     margin-left: auto; 
+     margin-right: auto;
+     text-align: left;  
+ } 
+ tr.heading {
+    background-color: #0091DA;
+    color: #000000;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+tr.subheading {
+    background-color: #00338D;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+ tr.section { 
+     background-color: #4286f4; 
+     color: #FFFFFF; 
+     /* font-weight: bold;  */
+     font-size: 15px; 
+     text-align: justify; 
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ td.expandIteration {
+     cursor: pointer;
+ }
+
+ tr.subsection { 
+     cursor: pointer; 
+ } 
+
+ tr.content { 
+     background-color: #C6FFEC; 
+     color: #000000; 
+     font-size: 0.9em; 
+     /* font-size: 15px;  */
+     display: table-row; 
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ tr.content:nth-child(odd)		{ background-color:#D9F2FF; }
+ tr.content:nth-child(even)		{ background-color:#E7F7FF; }
+
+ td, th { 
+     padding: 4px; 
+     /* text-align: inherit\0/;  */
+ } 
+
+ td.justified { 
+     text-align: Centre; 
+ } 
+
+ td.pass { 
+     font-weight: bold; 
+     color: #3DB700; 
+ } 
+
+ td.fail { 
+     font-weight: bold; 
+     color: red; 
+ } 
+
+ td.done, td.screenshot { 
+     font-weight: bold; 
+     color: black; 
+ } 
+ 
+  td.inprogress{ 
+     font-weight: bold; 
+     color: orange; 
+ } 
+
+ td.debug { 
+     font-weight: bold; 
+     color: blue; 
+ } 
+
+ td.warning { 
+     font-weight: bold; 
+     color: orange; 
+ }
+ img.hover_img{
+    width: 150px;
+ }
