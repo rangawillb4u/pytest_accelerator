@@ -62,7 +62,7 @@ class Triage extends Component{
     constructor(props){
         super(props);
         this.state = {            
-            apiServer: "http://18.202.150.250", //"http://127.0.0.1:5000", //
+            apiServer: "http://auto-api.azurewebsites.net",//"http://18.202.150.250", //"http://127.0.0.1:5000", //
             executionLogsData:{
                 columns:[], 
                 rows:[],
