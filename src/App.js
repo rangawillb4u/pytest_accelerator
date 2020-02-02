@@ -78,7 +78,7 @@ export default class App extends Component{
                                 <span style={{marginLeft:"2px"}}>{this.state.branch}</span>
                             </div>
                             <div className="main-footer-right">
-                            <span>Contact: &nbsp;</span><a href="mailto:Ranganathan.Veluswamy@gmail.co.uk" style={{color:"white"}}>Ranganathan Veluswamy</a>
+                            <span>Contact: &nbsp;</span><a href="mailto:Ranganathan.Veluswamy@gmail.co.uk" style={{color:"white"}}>RanganathanVeluswamy</a>
                             </div>
                             </small>
                                     
